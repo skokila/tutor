@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <title>Example: Hello World</title>
+</head>
+<body>
+  <div id="hello"></div>
+
+  <script src="../closure-library/closure/goog/base.js"></script>
+  <script>goog.require('goog.string.StringBuffer');</script>
+  <script src="../closure-templates/soyutils_usegoog.js"></script>
+  <script src="hello.soy.js"></script>
+  <script src="hello.js"></script>
+  <script>
+    example.sayHello('Hello World!');
+  </script>
+
+</body>
+</html>
